@@ -1,0 +1,22 @@
+body {
+  background-color:goldenrod;
+  color:black;
+  font-family: font-family: "Creepster", system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+}
+button {
+    background-color: yellow;
+    color: black;
+    font-family: font-family: "Creepster", system-ui;
+}
+.passo {
+    display: none;
+}
+
+.passo.ativo { 
+    display:block;
+}
